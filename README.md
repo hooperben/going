@@ -36,8 +36,21 @@ $$\Delta x = \frac{x \Delta y}{r(y - \Delta y)}$$
 
 We can always find the output amount using the ${\Delta y}$ function (when we are selling a known amount of tokens).
 
+### To run
+
+using go version 1.2.4
+
+```bash
+go run .
+```
+
+should output the following:
+
+![alt text](image.png)
+
 ### Things that can be improved
 
+- alchemy API key is hardcoded (free tier account)
 - pool address doesn't need to be passed, can just be token0 and token1 addresses
 - should display symbols of tokens in output amounts
 - fee is hardcoded to 0.3
